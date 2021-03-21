@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/warnakulasuriyacharu/Downloads/Bilancio/main.c" "/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/CMakeFiles/Bilancio.dir/main.c.o"
-  "/Users/warnakulasuriyacharu/Downloads/Bilancio/prototypes.c" "/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/CMakeFiles/Bilancio.dir/prototypes.c.o"
+  "/Volumes/HD/Projects/C/Bilancio/main.c" "/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/CMakeFiles/Bilancio.dir/main.c.o"
+  "/Volumes/HD/Projects/C/Bilancio/prototypes.c" "/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/CMakeFiles/Bilancio.dir/prototypes.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

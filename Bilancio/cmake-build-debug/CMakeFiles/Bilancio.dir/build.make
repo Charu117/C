@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/warnakulasuriyacharu/Downloads/Bilancio
+CMAKE_SOURCE_DIR = /Volumes/HD/Projects/C/Bilancio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug
+CMAKE_BINARY_DIR = /Volumes/HD/Projects/C/Bilancio/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Bilancio.dir/depend.make
@@ -79,29 +79,29 @@ include CMakeFiles/Bilancio.dir/flags.make
 
 CMakeFiles/Bilancio.dir/main.c.o: CMakeFiles/Bilancio.dir/flags.make
 CMakeFiles/Bilancio.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Bilancio.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Bilancio.dir/main.c.o   -c /Users/warnakulasuriyacharu/Downloads/Bilancio/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Bilancio.dir/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Bilancio.dir/main.c.o   -c /Volumes/HD/Projects/C/Bilancio/main.c
 
 CMakeFiles/Bilancio.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Bilancio.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/warnakulasuriyacharu/Downloads/Bilancio/main.c > CMakeFiles/Bilancio.dir/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/HD/Projects/C/Bilancio/main.c > CMakeFiles/Bilancio.dir/main.c.i
 
 CMakeFiles/Bilancio.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Bilancio.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/warnakulasuriyacharu/Downloads/Bilancio/main.c -o CMakeFiles/Bilancio.dir/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/HD/Projects/C/Bilancio/main.c -o CMakeFiles/Bilancio.dir/main.c.s
 
 CMakeFiles/Bilancio.dir/prototypes.c.o: CMakeFiles/Bilancio.dir/flags.make
 CMakeFiles/Bilancio.dir/prototypes.c.o: ../prototypes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Bilancio.dir/prototypes.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Bilancio.dir/prototypes.c.o   -c /Users/warnakulasuriyacharu/Downloads/Bilancio/prototypes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Bilancio.dir/prototypes.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Bilancio.dir/prototypes.c.o   -c /Volumes/HD/Projects/C/Bilancio/prototypes.c
 
 CMakeFiles/Bilancio.dir/prototypes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Bilancio.dir/prototypes.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/warnakulasuriyacharu/Downloads/Bilancio/prototypes.c > CMakeFiles/Bilancio.dir/prototypes.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/HD/Projects/C/Bilancio/prototypes.c > CMakeFiles/Bilancio.dir/prototypes.c.i
 
 CMakeFiles/Bilancio.dir/prototypes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Bilancio.dir/prototypes.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/warnakulasuriyacharu/Downloads/Bilancio/prototypes.c -o CMakeFiles/Bilancio.dir/prototypes.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/HD/Projects/C/Bilancio/prototypes.c -o CMakeFiles/Bilancio.dir/prototypes.c.s
 
 # Object files for target Bilancio
 Bilancio_OBJECTS = \
@@ -115,7 +115,7 @@ Bilancio: CMakeFiles/Bilancio.dir/main.c.o
 Bilancio: CMakeFiles/Bilancio.dir/prototypes.c.o
 Bilancio: CMakeFiles/Bilancio.dir/build.make
 Bilancio: CMakeFiles/Bilancio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Bilancio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Bilancio"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Bilancio.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/Bilancio.dir/clean:
 .PHONY : CMakeFiles/Bilancio.dir/clean
 
 CMakeFiles/Bilancio.dir/depend:
-	cd /Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/warnakulasuriyacharu/Downloads/Bilancio /Users/warnakulasuriyacharu/Downloads/Bilancio /Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug /Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug /Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/CMakeFiles/Bilancio.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Volumes/HD/Projects/C/Bilancio/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/HD/Projects/C/Bilancio /Volumes/HD/Projects/C/Bilancio /Volumes/HD/Projects/C/Bilancio/cmake-build-debug /Volumes/HD/Projects/C/Bilancio/cmake-build-debug /Volumes/HD/Projects/C/Bilancio/cmake-build-debug/CMakeFiles/Bilancio.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Bilancio.dir/depend
 

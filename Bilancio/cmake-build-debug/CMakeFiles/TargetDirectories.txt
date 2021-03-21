@@ -1,3 +1,3 @@
-/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/CMakeFiles/Bilancio.dir
+/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/CMakeFiles/Bilancio.dir

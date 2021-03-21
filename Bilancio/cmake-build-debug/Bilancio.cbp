@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug"/>
+				<Option working_dir="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug"/>
+				<Option working_dir="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug"/>
+				<Option working_dir="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Bilancio">
-				<Option output="/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Bilancio" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug"/>
+				<Option output="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Bilancio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bilancio"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bilancio"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Bilancio/fast">
-				<Option output="/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Bilancio" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug"/>
+				<Option output="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Bilancio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,23 +71,23 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bilancio/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bilancio/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/warnakulasuriyacharu/Downloads/Bilancio/main.c">
+		<Unit filename="/Volumes/HD/Projects/C/Bilancio/main.c">
 			<Option target="Bilancio"/>
 		</Unit>
-		<Unit filename="/Users/warnakulasuriyacharu/Downloads/Bilancio/prototypes.c">
+		<Unit filename="/Volumes/HD/Projects/C/Bilancio/prototypes.c">
 			<Option target="Bilancio"/>
 		</Unit>
-		<Unit filename="/Users/warnakulasuriyacharu/Downloads/Bilancio/prototypes.h">
+		<Unit filename="/Volumes/HD/Projects/C/Bilancio/prototypes.h">
 			<Option target="Bilancio"/>
 		</Unit>
-		<Unit filename="/Users/warnakulasuriyacharu/Downloads/Bilancio/CMakeLists.txt">
+		<Unit filename="/Volumes/HD/Projects/C/Bilancio/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

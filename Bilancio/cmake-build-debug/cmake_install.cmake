@@ -1,4 +1,4 @@
-# Install script for directory: /Users/warnakulasuriyacharu/Downloads/Bilancio
+# Install script for directory: /Volumes/HD/Projects/C/Bilancio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/warnakulasuriyacharu/Downloads/Bilancio/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
