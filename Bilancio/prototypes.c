@@ -5,23 +5,21 @@
 #include "prototypes.h"
 
 //una funzione "privata"
-void prepData(char* array[3], char temp[100]);
+void prepData(char* array[MAX_FIELDS], char temp[MAX]);
 
 
 int get_daily_transactions(Day_transaction transactions[], char filename[]){
     FILE *fp1 = fopen(filename, "r");
-    char str_temp[100];
-    char* token;
-    int num_tokens, i = 0, day = 0;
+    char str_temp[MAX];
+    int i = 0, day = 0;
     char* array[3];
 
     while (!feof(fp1)){
-        fgets(str_temp, 100, fp1);
+        fgets(str_temp, MAX, fp1);
 
         if (i == 0){
             day = atoi(str_temp);
         } else{
-            num_tokens = 0;
             prepData(array, str_temp);
 
             transactions[i-1].day = day;
@@ -36,13 +34,13 @@ int get_daily_transactions(Day_transaction transactions[], char filename[]){
    return i-1;
 }
 
-void prepData(char* array[3], char temp[100]) {
-    char* p = strtok(temp, ";\n");
+void prepData(char* array[], char temp[]) {
+    char* token = strtok(temp, ";\n");
     int i = 0;
 
-    while (p != NULL){
-        array[i++] = p;
-        p = strtok(NULL, ";\n");
+    while (token != NULL){
+        array[i++] = token;
+        token = strtok(NULL, ";\n");
     }
 }
 
