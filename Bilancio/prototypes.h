@@ -19,8 +19,10 @@ typedef struct {
     Transaction t;
 } Day_transaction;
 
-void update_Income(char filename[]);
-void update_expense(char filename[]);
+int get_daily_transactions(Day_transaction transaction[], char filename[]);
+
+void update_In_and_exp(Day_transaction transaction[], int);
+
 
 float total_income();
 float total_expense();

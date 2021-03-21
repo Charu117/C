@@ -3,7 +3,8 @@
 
 int main(int argc, char **argv) {
     char filename[MAX_STR];
-
+    Day_transaction t[5];
+    int arrDim;
 
     printf("Inserisci il nome del file: ");
     scanf("%s", filename);
@@ -12,9 +13,9 @@ int main(int argc, char **argv) {
 
     //printf("%s", filename);
 
-    update_Income(filename);
+    arrDim = get_daily_transactions(t, filename);
 
-
+    update_In_and_exp(t, arrDim);
 
 
     return 0;
