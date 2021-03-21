@@ -1,11 +1,11 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Volumes/HD/Projects/C/Bilancio
--- The C compiler identification is AppleClang 11.0.3.11030032
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - works
+"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\hlr\CLionProjects\C\Bilancio
+-- The C compiler identification is GNU 4.8.3
+-- Check for working C compiler: C:/winBuildsC/bin/gcc.exe
+-- Check for working C compiler: C:/winBuildsC/bin/gcc.exe - works
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Volumes/HD/Projects/C/Bilancio/cmake-build-debug
+-- Build files have been written to: C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug

@@ -8,86 +8,84 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug"/>
+				<Option working_dir="C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug"/>
+				<Option working_dir="C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Bilancio">
-				<Option output="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Bilancio" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug"/>
+				<Option output="C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Bilancio.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/winBuildsC/include"/>
+					<Add directory="c:\winbuildsc\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\winbuildsc\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\winbuildsc\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bilancio"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bilancio"/>
+					<CompileFile command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Bilancio/fast">
-				<Option output="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Bilancio" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Volumes/HD/Projects/C/Bilancio/cmake-build-debug"/>
+				<Option output="C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Bilancio.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/winBuildsC/include"/>
+					<Add directory="c:\winbuildsc\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\winbuildsc\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\winbuildsc\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bilancio/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/HD/Projects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bilancio/fast"/>
+					<CompileFile command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/winBuildsC/bin/mingw32-make.exe -f &quot;C:/Users/hlr/CLionProjects/C/Bilancio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Volumes/HD/Projects/C/Bilancio/main.c">
+		<Unit filename="C:/Users/hlr/CLionProjects/C/Bilancio/main.c">
 			<Option target="Bilancio"/>
 		</Unit>
-		<Unit filename="/Volumes/HD/Projects/C/Bilancio/prototypes.c">
+		<Unit filename="C:/Users/hlr/CLionProjects/C/Bilancio/prototypes.c">
 			<Option target="Bilancio"/>
 		</Unit>
-		<Unit filename="/Volumes/HD/Projects/C/Bilancio/prototypes.h">
+		<Unit filename="C:/Users/hlr/CLionProjects/C/Bilancio/prototypes.h">
 			<Option target="Bilancio"/>
 		</Unit>
-		<Unit filename="/Volumes/HD/Projects/C/Bilancio/CMakeLists.txt">
+		<Unit filename="C:/Users/hlr/CLionProjects/C/Bilancio/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

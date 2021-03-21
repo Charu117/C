@@ -4,7 +4,7 @@
 int main(int argc, char **argv) {
     char filename[MAX_STR];
     Day_transaction t[5];
-    int arrDim;
+    int arrDim; //test
 
     printf("Inserisci il nome del file: ");
     scanf("%s", filename);

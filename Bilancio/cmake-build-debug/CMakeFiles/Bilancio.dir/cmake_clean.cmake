@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "Bilancio"
+  "Bilancio.exe"
+  "Bilancio.exe.manifest"
   "Bilancio.pdb"
-  "CMakeFiles/Bilancio.dir/main.c.o"
-  "CMakeFiles/Bilancio.dir/prototypes.c.o"
+  "CMakeFiles/Bilancio.dir/main.c.obj"
+  "CMakeFiles/Bilancio.dir/prototypes.c.obj"
+  "libBilancio.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
