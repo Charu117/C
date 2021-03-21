@@ -17,6 +17,7 @@ int main(int argc, char **argv) {
 
     update_In_and_exp(t, arrDim);
 
+    printf("Saldo finale: %.2f \n", getTotalValues(ENTRATE) - getTotalValues(USCITE));
 
     return 0;
 }
