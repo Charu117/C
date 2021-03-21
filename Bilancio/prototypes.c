@@ -14,23 +14,27 @@ int get_daily_transactions(Day_transaction transactions[], char filename[]) {
     int i = 0, day = 0;
     char *array[3];
 
-    while (!feof(fp1)) {
-        fgets(str_temp, MAX, fp1);
+    if (fp1) {
+        while (!feof(fp1)) {
+            fgets(str_temp, MAX, fp1);
 
-        if (i == 0) {
-            day = atoi(str_temp);
-        } else {
-            prepData(array, str_temp);
+            if (i == 0) {
+                day = atoi(str_temp);
+            } else {
+                prepData(array, str_temp);
 
-            transactions[i - 1].day = day;
-            strcpy(transactions[i - 1].t.mode, array[0]);
-            transactions[i - 1].t.import = atof(array[1]);
-            strcpy(transactions[i - 1].t.motive, array[2]);
+                transactions[i - 1].day = day;
+                strcpy(transactions[i - 1].t.mode, array[0]);
+                transactions[i - 1].t.import = atof(array[1]);
+                strcpy(transactions[i - 1].t.motive, array[2]);
 
+            }
+            i++;
         }
-        i++;
+        fclose(fp1);
+    } else {
+        printf("File inserito non e' esistente\n");
     }
-    fclose(fp1);
     return i - 1;
 }
 
