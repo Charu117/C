@@ -80,21 +80,3 @@ float getTotalValues(char *fileName) {
     fclose(fp);
     return incomes;
 }
-
-//cestino
-
-//token = strtok(str_temp, ";\n");
-
-/*while (token != NULL){
-    if (num_tokens == 0){
-        transactions[i-1].day = day;
-        strcpy(transactions[i-1].t.mode,token);
-    } else if (num_tokens == 1){
-        transactions[i-1].t.import = atof(token);
-    } else if (num_tokens == 2){
-        strcpy(transactions[i-1].t.motive, token);
-    }
-
-    token = strtok(NULL, ";\n");
-    num_tokens++;
-}*/

@@ -23,7 +23,8 @@ typedef struct {
     Transaction t;
 } Day_transaction;
 
-int get_daily_transactions(Day_transaction transaction[], char filename[]);
-void update_In_and_exp(Day_transaction transaction[], int);
+int get_daily_transactions(Day_transaction transaction[], char filename[]); //ritorna il numero delle transazioni del file dato in input, oltre a caricare l'array "transaction"
 
-float getTotalValues(char *fileName);
+void update_In_and_exp(Day_transaction transaction[], int); //aggiunge i nuovi transazioni ai files di ENTRATE e USCITE
+
+float getTotalValues(char *fileName); //legge le righe dal file passato e ritorna la somma di importi di tutte le righe

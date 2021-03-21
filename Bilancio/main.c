@@ -16,7 +16,7 @@ int main(int argc, char **argv) {
         printf("Errore! Non e' stato inserito il file di input\n");
     }
 
-    printf("Saldo finale: %.2f \n", getTotalValues(ENTRATE) - getTotalValues(USCITE));
+    printf("Saldo finale: %.2f \n", getTotalValues(ENTRATE) - getTotalValues(USCITE)); //stampa il saldo finale facendo differenza tra totali di ENTRATE e USCITE
 
     return 0;
 }
