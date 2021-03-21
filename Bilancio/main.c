@@ -4,6 +4,7 @@
 int main(int argc, char **argv) {
     char filename[MAX_STR];
 
+
     printf("Inserisci il nome del file: ");
     scanf("%s", filename);
 
